@@ -1,0 +1,104 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+
+.max-auto{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction:column;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+
+.text-green{
+    color: #06AC22;
+}
+
+
+.buttonLogin{
+    padding: 4px 10px;
+    color: white;
+    border: 2px;
+    border-radius: 12px;
+    background-color: #06AC22;
+    cursor: pointer;
+}
+
+.button1{
+    padding: 10px 50px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #06AC22;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.button2{
+    padding: 15px 80px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #06AC22;
+    cursor: pointer;
+    margin-top: 22px;
+}
+/*.p{
+    display: block;
+    margin-block-start:.5em;
+    margin-block-end: .5em;
+    margin-inline-start: 150px;
+    margin-inline-end: 90px;
+}*/
+
+.imageContainer{
+    width: 250px;
+    height: 10px;
+   margin-top: 20px;
+    z-index:0;
+    
+}
+
+.GoPremium{
+    color: rgb(201, 235, 235);
+    margin-left:80px ;
+    margin-top:60px;
+    font-size: 23px;
+}
+
+.GoPremium a{
+    font-size: 18px;
+}
+
+.GoPremium a:hover{
+    color:#ddd
+}
+
+.section2 a{
+    margin-left: 200px;
+}
+

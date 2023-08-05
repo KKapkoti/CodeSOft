@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    box-sizing: border-box
+}
+html{
+    overflow-y: scroll;
+}
+
+
+body{
+    background-color:#06AC22;
+    background-size: cover;
+}
+
+.container{
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header{
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    height: 50px;
+    /*font-family: 'Jacques Francois Shadow', cursive;*/
+    font-family: 'Ubuntu', san-serif;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 10px;
+    
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height:60px;
+    list-style:none;
+}
+
+.navbarcolor{
+    background-color: #060505;
+}
+
+
+/* styles for main section */
+
+ /*Go premium */
+.section1{
+    font-family: 'Jacques Francois Shadow', cursive;
+   background: linear-gradient(#038F23, #05524C, #44B674);
+   /*background: linear-gradient(to right, #038F23 65%, #05524C 5%, #44B674 30%);*/
+    height: 70vh;
+    justify-content: space-around;
+    display: flex;
+}
+
+.section1::after{
+    content:"";
+   border-radius: 50%;
+   height: 200px;
+}
+
+.section1::before{
+    content:"";
+    border-radius: 50%;
+    height: 200px;
+    left:100px;
+    top: 150px;   
+}
+
+.line{
+    width:0.3vw;
+    background-color: rgb(14, 10, 10);
+    position: absolute;
+    top:20vh;
+    left:23vw;
+    height:31vh;
+    
+}
+
+
+/*get spotify free*/
+.section2{
+    height: 70vh;
+    background: linear-gradient(#48A489, #144753);/*(#9198e5, #a900d2);*/
+    font-family: 'Jacques Francois Shadow', cursive;
+}
+
+.section2 h4{
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 150px;
+    color:rgb(15, 18, 20);   
+}
+
+.section2 h1{
+    font-size: 35px;
+   margin-top: 5px;
+    margin-left: 150px;
+    color:aliceblue;   
+}
+
+.section2 p{
+    font-size: 25px;
+  /* margin-top: 100px;*/
+    margin-left: 150px;
+    color:rgb(123, 164, 199);   
+}
+
+
+ .section3{
+    height: 70vh;
+    background:white/*linear-gradient(#fa00a9 , #250657c2);*/
+}
+
+
+
+
+/*styles for footer */
+footer{
+height:60vh;
+ /*border-top: 1px solid #060505;*/
+  box-shadow: 0px -2px 3px #060505;
+ /* text-align: center;*/
+  background-color: #060505;
+  /*padding: 2rem;*/
+  color:#ffffff;
+  display:flex;
+  flex-direction: column;
+}
+
+#mainFoot{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 65px;
+}
+
+#footerLinks{
+    display:flex;
+    flex-direction: row;
+}
+
+#footerLinks div{
+    margin-top:50px;
+    margin-left:100px;
+}
+
+#footerLinks ul li:first-of-type{
+    color:rgb(204, 204, 204);
+    cursor:unset;
+    font-size:10px;
+    font-weight:bolder;
+}
+ #footerLinks ul li:first-of-type:hover{
+    color:#ccc;
+ }
+#footerLinks ul li{
+    cursor:pointer;
+    margin-bottom: 15px;
+}
+
+#footerLinks ul li:hover{
+    color: yellowgreen;
+}
+
+#social{
+    margin-top:50px;
+   /* border-radius:10px;
+    border:2rem;*/
+}
+
+#social span{
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+
+/*footLogo*/
+#footLogo h3{
+    display:inline-block;
+}
+
+
+/*tailFooter*/
+#tail{
+    display:flex;
+    justify-content: space-around;
+    
+}
+ 
+#tail ul li{
+    display: inline-block;
+    margin-left:20px;
+    font-size:10px;
+    color: gray;
+    cursor: pointer;
+}
+
+#tail ul li:hover{
+    color:yellowgreen;
+}
+
+#footLoc{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 10px;
+    color:hsl(0, 0%, 80%);
+}
+
+#footLoc span:first-of-type{
+    margin-bottom: 5px;
+} 
+
+#footLoc span:first-of-type:hover{
+    color:yellowgreen;
+}
+
+/*.copyright{
+     height:40vh;
+     text-align: center;
+     margin: 0rem;
+     /*background-color: rgb(11, 4, 18);*/
+    /* box-shadow: 0px -2px 3px #060505;
+     height:5vh;
+}*/
